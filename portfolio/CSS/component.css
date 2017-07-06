@@ -129,6 +129,14 @@ nav a:focus {
 	-moz-transform: rotate(0deg) translateX(50%);
 	transform: rotate(0deg) translateX(50%);
 }
+.pt-perspective {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	-webkit-perspective: 1200px;
+	-moz-perspective: 1200px;
+	perspective: 1200px;
+}
 
 .pt-page h1 strong {
 	color: rgba(0,0,0,0.1);
